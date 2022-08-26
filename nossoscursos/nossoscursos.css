@@ -3,17 +3,54 @@
     padding: 0;
 }
 
-    h1 {
-    text-align: center;
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+
 }
 
-.nav-container {
-    border: 1px solid black;
-    padding: 5px;
-    box-sizing: border-box;
-    display: block;
+a:hover {
+    opacity: 0.7;
 }
 
-p {
-    font-size: 50px;
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #8c6354;
+    height: 8vh;
+}
+
+ main {
+    background-size: cover;
+    height: 92vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
 }
