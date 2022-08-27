@@ -83,14 +83,60 @@ footer h3 {
 
 .textoJS {
     position: relative;
-    padding-left: 33%;
-    padding-top: 20%;
+    left: 35px;
+    top: 300px;
     letter-spacing: 2px;
 
 }
 
 .textoPY {
-    bottom 50px;
-    padding-left: 40%;
+    position: relative;
+    left: 60px;
+    top: 410px;
     letter-spacing: 2px;
+    
+}
+
+.textoPY:hover{
+    opacity: 0.50;
+}
+
+.textoJS:hover{
+    opacity: 0.50;
+}
+
+.logoPY {
+    position: relative;
+    left: 35px;
+    top: 100px;
+}
+
+.logoJS {
+    left: 35px;
+    position: relative;
+    
+}
+
+.inf-js {
+    position: relative;
+    left: 330px;
+    right: 360px;
+    bottom: 230px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: large;
+    color: white;
+    background-color: #8C6354;
+}
+
+.inf-py {
+    position: relative;
+    left: 330px;
+    right: 360px;
+    bottom: 100px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: large;
+    color: white;
+    background-color: #8C6354;
 }
