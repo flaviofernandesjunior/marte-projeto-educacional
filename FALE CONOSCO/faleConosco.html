@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,51 @@
     <link rel="stylesheet" href="../compartilhado/compartilhado.css">
     <title>Marte</title>
 </head>
+
 <body>
     <header>
         <nav>
             <img class="img-marte" src="../logopng.png" alt="logo-marte">
             <a class="logo" href="/">Marte</a>
-                    <ul class="nav-container">
+            <ul class="nav-container">
                 <li><a href="../nossoscursos/nossoscursos.html">Página Inicial</a></li>
                 <li><a href="#">Login</a></li>
             </ul>
         </nav>
     </header>
-<div>
-    <h1>Fale Conosco</h1>
-    <form action="#">
-        <fieldset>
-            <br>
-            <div>
-                <label for="#">Nome Completo</label>
-                <input type="text" name="nome completo" id="nome">
-            </div>
-            <div>
-                <label for="#">Email</label>
-                <input type="email" name="email" id="email">
-            </div>
-        </fieldset>
+    <div>
+        <h1>Fale Conosco</h1>
+        <form action="#">
+            <fieldset>
+                <br>
+                <div>
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome completo" id="nome">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <br>
+                <div>
+                    <label for="genero">Gênero</label>
+                    <select name="genero" id="genero">
+                        <option selected disabled value="">Selecione</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="#">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                </div>
+    </div>
+    </fieldset>
     </form>
-</div>
+    </div>
     <script src="faleConosco.js"></script>
 </body>
+
 </html>
