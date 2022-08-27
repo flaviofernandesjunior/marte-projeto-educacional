@@ -18,6 +18,7 @@ a:hover {
 
 .img-marte {
     width: 60px;
+    position: static;
 }
 
 .logo {
@@ -30,12 +31,12 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     background: #8c6354;
     height: 10vh;
-   
 }
-
- main {
+   
+main {
     background-size: cover;
     height: 90vh;
 }
@@ -71,7 +72,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #black;
+    color: black;
 }
 
 footer h3 {
@@ -81,6 +82,7 @@ footer h3 {
 }
 
 .textoJS {
+    position: relative;
     padding-left: 33%;
     padding-top: 20%;
     letter-spacing: 2px;
