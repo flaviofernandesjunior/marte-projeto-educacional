@@ -67,8 +67,14 @@ h1 {
 }
 
 .conheca-nossos-cursos {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 620px;
+    left: 350px;
     margin: 70px;
-    padding: 20px 20px;
+    padding: 10px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
