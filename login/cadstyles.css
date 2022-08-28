@@ -8,6 +8,8 @@ body {
   font-size: 16px;
   }
 
+
+/* Inicio css topo página*/
 a {
     color: #fff;
     text-decoration: none;
@@ -69,6 +71,7 @@ main {
     background: #fff;
     margin: 8px;
 }
+/* Fim css topo página*/
 
 .cadastro {
   height: 100vh;
@@ -89,6 +92,7 @@ main {
   align-items: center; 
 
 }
+
   h1, p {
     margin: 1em auto;
     text-align: center;
