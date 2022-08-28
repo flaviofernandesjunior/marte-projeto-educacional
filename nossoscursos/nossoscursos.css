@@ -37,7 +37,7 @@ nav {
 }
    
 main {
-    background-size: cover;
+    background-size: auto;
     height: 90vh;
 }
 
@@ -107,36 +107,14 @@ footer h3 {
 
 .logoPY {
     position: relative;
-    left: 35px;
-    top: 100px;
+    left: 650px;
+    top: 50px;
+   
 }
 
 .logoJS {
-    left: 35px;
+    left: 335px;
+    top: 50px;
     position: relative;
     
-}
-
-.inf-js {
-    position: relative;
-    left: 330px;
-    right: 360px;
-    bottom: 230px;
-    border: 1px solid black;
-    border-radius: 8px;
-    font-size: large;
-    color: white;
-    background-color: #8C6354;
-}
-
-.inf-py {
-    position: relative;
-    left: 330px;
-    right: 360px;
-    bottom: 100px;
-    border: 1px solid black;
-    border-radius: 8px;
-    font-size: large;
-    color: white;
-    background-color: #8C6354;
 }
