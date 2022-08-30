@@ -65,6 +65,7 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
+
 @media(max-width: 1176px) {
 
     html {
@@ -151,4 +152,26 @@ nav ul li a:hover {
         margin-left: 0;
     }
 
+
+/* criar botão acesso área do estudante ou matricule-se (na próxima etapa) 
+    
+
+<a class="btn-menu" href="#"> Área do estudante</a> ****mudar no html****
+
+****acrescentar no css*****
+.menu-section.on .btn-menu {
+    background-color: #4e2039;
+    display: inline-block;
+    padding:  8px 16px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.menu-section.on .btn-menu:hover {
+    background-color: #955740;
+    color: white; 
+ 
+    */
+
+   /* acrescentar footer */
+    
 }
