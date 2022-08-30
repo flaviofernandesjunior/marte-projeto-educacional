@@ -1,77 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans%3Awght%40700&family=Poppins%3Awght%40600&display=swap%27%29%3B');
 body {
     background-image:url(../istockphoto-1097906842-170667a.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: 100% 100%;
-    font-family: Tahoma;  
+    font-family: Poppins;  
 }
 
 p {
     margin: 1em auto;
     text-align: right;
     font-size: 14px;
-  }
+}
 
 a {
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
 
-}
-
-a:hover {
-    opacity: 0.15;
-}
-
-.img-marte {
-    width: 60px;
-}
-
-.logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #8c6354;
-    height: 10vh;
-   
-}
-
-* {
-    margin: 0;
-    padding: 0;
-} 
-
-main {
-    background-size: cover;
-    height: 90vh;
-}
-
-.nav-list {
-    list-style: none;
-    display: flex;
-}
-
-.nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
-}
-
-.mobile-menu {
-    cursor: pointer;
-}
-
-.mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
 }
 
 .login {
@@ -128,7 +74,7 @@ main {
     height: 1px;
     width: 0;
     margin-bottom: 16px;
-    background: linear-gradient(120deg,#BF6C5A, #D9BFA0);
+    background: linear-gradient(120deg,#BF6C5A, #8c6354);
     transition: .3s ease-in-out;
 }
 
@@ -136,7 +82,7 @@ main {
     height: 48px;
     width: 100%;
     outline: none;
-    background: linear-gradient(120deg,#BF6C5A, #D9BFA0, #BF6C5A);
+    background: linear-gradient(120deg,#BF6C5A, #8c6354, #BF6C5A);
     background-size: 200%;
     margin-bottom: 32px;
     color: #ffffff;
@@ -151,8 +97,8 @@ main {
 
 .login_reset {
     text-align: start;
-    font-size: 13px;
-    color:#BF7ABF;
+    font-size: 11px;
+    color:#BF6C5A;
     text-decoration: none;
     
 
@@ -160,8 +106,8 @@ main {
 
 .login_signup {
     text-align: end;
-    font-size: 13px;
-    color:#BF7ABF;
+    font-size: 11px;
+    color:#BF6C5A;
     text-decoration: none;
     
 }

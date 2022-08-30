@@ -1,65 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
   <head>
     <meta charset="UTF-8">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="cadstyles.css"/>
+    <link rel="stylesheet" href="cadastro.css"/>
   </head>
+
   <body>
-    <header>
-      <nav>
-          <img class="img-marte" src="../logopng.png" alt="logo-marte">
-          <a class= "logo" href="">Marte</a>
-          <div class="mobile-menu">
-              <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-          </div>
-          <ul class="nav-container">
-              <li><a href="../nossoscursos/nossoscursos.html">Página Inicial</a></li>
-              <li><a href="../login/lgindex.html">Área do Estudante</a></li>
-              <li><a href="../FALE CONOSCO/faleConosco.html"target="blank">Fale Conosco</a></li>
-          </ul>
-      </nav>
-  </header>
-  <main class="cadastro">
-  <div class="cad-container">
-    <h1>Cadastre-se</h1>
-    <p>Informe os dados solicitados</p>
-    <form action=''>
-      <fieldset>
-        <label>Digite seu primeiro nome: <input type="text" name="first-name" required /></label>
-        <label>Digite seu sobrenome: <input type="text" name="last-name" required /></label>
-        <label>Digite seu e-mail: <input type="email" name="email" required /></label>
-        <label>Crie uma senha: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
-      </fieldset>
-      <fieldset>
-        <label><input type="radio" name="account-type" class="inline" /> Conta pessoal</label>
-        <label><input type="radio" name="account-type" class="inline" /> Conta corporativa</label>
-        <label>
-          <input type="checkbox" name="terms" class="inline" required /> Eu aceito os <a class="termos" href="#">termos e condições</a>
-        </label>
-      </fieldset>
-      <fieldset>
-        <label>Envie sua foto de perfil: <input type="file" name="file" /></label>
-        <label>Informe a sua idade: <input type="number" name="age" min="18" max="100" />
-        </label>
-        <label>Como você nos conheceu?
-          <select name="referrer">
-            <option value="">(selecione)</option>
-            <option value="1">Jornais/Revistas</option>
-            <option value="2">Redes Sociais</option>
-            <option value="3">Indicação de amigos/conhecidos</option>
-            <option value="4">Outros</option>
-          </select>
-        </label>
-        <label>Fale um pouco sobre você:
-          <textarea name="bio" rows="3" cols="30" placeholder="Eu escolhi esse curso pois..."></textarea>
-        </label>
-      </fieldset>
-      <input type="enviar" value="Enviar" />
-    </form>
-  </div>
-</main>
+
+    <main class="cadastro">
+
+     <div class="cad-container">
+        <h1>Cadastre-se</h1>
+        <p>Informe os dados solicitados</p>
+
+        <form action=''>
+
+          <fieldset>
+
+            <label>Digite seu primeiro nome: <input type="text" name="first-name" required /></label>
+            <label>Digite seu sobrenome: <input type="text" name="last-name" required /></label>
+            <label>Digite seu e-mail: <input type="email" name="email" required /></label>
+            <label>Crie uma senha: <input type="password" name="password" pattern="[a-z0-5]{8,}" required /></label>
+
+          </fieldset>
+
+          <fieldset>
+
+            <label><input type="radio" name="account-type" class="inline" /> Conta pessoal</label>
+            <label><input type="radio" name="account-type" class="inline" /> Conta corporativa</label>
+
+            <label>
+              <input type="checkbox" name="terms" class="inline" required /> Eu aceito os <a class="termos" href="#">termos e condições</a>
+            </label>
+          </fieldset>
+
+          <fieldset>
+
+            <label>Envie sua foto de perfil: <input type="file" name="file" /></label>
+            <label>Informe a sua idade: <input type="number" name="age" min="18" max="100" /></label>
+
+            <label>Como você nos conheceu?
+
+              <select name="referrer">
+                <option value="">(selecione)</option>
+                <option value="1">Jornais/Revistas</option>
+                <option value="2">Redes Sociais</option>
+                <option value="3">Indicação de amigos/conhecidos</option>
+                <option value="4">Outros</option>
+              </select>
+
+            </label>
+
+            <label>Fale um pouco sobre você:
+
+              <textarea name="bio" rows="3" cols="30" placeholder="Eu escolhi esse curso pois..."></textarea>
+
+            </label>
+
+          </fieldset>
+
+            <input type="enviar" value="Enviar" />
+
+         </form>
+
+      </div>
+
+    </main>
+
   </body>
+
 </html>

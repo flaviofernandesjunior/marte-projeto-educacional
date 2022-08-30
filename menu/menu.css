@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans%3Awght%40700&family=Poppins%3Awght%40600&display=swap%27%29%3B');
+* {
+    margin: 0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.img-marte {
+    width: 60px;
+    position: static;
+  }
+
+html, body {
+    height: 100%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+header {
+    background: linear-gradient( 90deg, #BF6C5A, #8c6354);
+}
+.logo h1 {
+    font-family: Noto Sans;
+    color:#f8f9f6;
+}
+
+header .container {
+        height: 65px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#f8f9f6;
+    font-size: 2.1rem;
+    padding: 6px 10px;
+    margin-left: 48px;
+    font-family: Poppins;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255 , 0.151) ;
+    transition: 0.3s;
+}
+
+@media(max-width: 1176px) {
+
+    html {
+        font-size: 40%;
+    }
+
+}
+@media(max-width: 936px) {
+
+    html {
+        font-size: 30%;
+    }
+
+}
+
+@media(max-width:794px) {
+    nav {
+        display: none;
+    }
+    .one,
+    .two,
+    .three {
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px  auto;
+
+        transition-duration: 0.3s;
+    }
+
+    .menu-burguer {
+        width: 40px;
+        height: 30px;
+    }
+    
+    .menu-section.on {
+        position:absolute;
+
+        top: 0;
+        left: 0;
+        
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient( 150deg, #BF6C5A, #8c6354);
+        display: flex;
+        align-items:  center;
+        justify-content: center;
+    }
+
+    .menu-section.on nav {
+        display: block;
+    }
+
+    .menu-section.on  .menu-burguer {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-burguer .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-burguer .two{
+        opacity: 0;
+
+    }
+
+    .menu-section.on .menu-burguer .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+
+    }
+
+    .menu-section.on nav ul{
+        display: block;
+        text-align: center;
+
+    }
+
+    .menu-section.on nav ul li a {
+        transition-duration: 0.3s;
+        font-size: 5rem;
+        line-height:  15rem;
+        margin-left: 0;
+    }
+
+}

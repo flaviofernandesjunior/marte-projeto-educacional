@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans%3Awght%40700&family=Poppins%3Awght%40600&display=swap%27%29%3B');
+body {
+    background-image:url(../istockphoto-1097906842-170667a.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+    font-family: Poppins;  
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    color:#F2421B;
+    font-size: 80px;
+    
+}
+
+p{
+    text-align: left;
+    margin-bottom: 12px;
+    color:#000000;
+    font-size: 30px;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: poppins;
+    color: white;
+  }
+
+  .frase{
+    display: flex;
+    align-items: right;
+    justify-content: bottom;
+    height: -200vh;
+    font-family: poppins;
+    color: white;
+  }
+  
+  .line {
+    display: flex;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: rgba(255,255,255,.0); /**retirei a cor para deixar o efeito só em line-p**/
+    font-size: 1.5em;
+    animation: cursorBlink 1000ms steps(40) infinite normal, typing 10000ms steps(100) normal 1 both;
+    white-space: nowrap;
+    max-width: 0vw; 
+    overflow: hidden;
+  }
+  
+  @keyframes cursorBlink {
+    100% {
+      border-right-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    100% {
+      max-width: 100vw;
+    }
+  }
+
+  .line-p {
+    display: flex;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: rgba(255,255,255,.4);
+    font-size: 1.5em;
+    animation: cursorBlink2 1000ms steps(40) infinite normal, typing2 10000ms steps(100) normal 1 both;
+    white-space: nowrap;
+    max-width: 0vw; 
+    overflow: hidden;
+  }
+  @keyframes cursorBlink2 {
+    100% {
+      border-right-color: transparent;
+    }
+  }
+  
+  @keyframes typing2 {
+    100% {
+      max-width: 100vw;
+    }
+  }
