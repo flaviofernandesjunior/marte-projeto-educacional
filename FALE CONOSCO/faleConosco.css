@@ -19,7 +19,7 @@ body{
 }
 
 footer{
-    position: fixed;
+    position: static;
     bottom: 0px;
     width: 100%;
     background-color: #8c6354 ;
