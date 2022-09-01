@@ -22,10 +22,6 @@ a {
 
 }
 
-h1 {
-    
-}
-
 .conheca-nossos-cursos {
     position: relative;
     border: 1px solid black;
@@ -83,4 +79,37 @@ footer h3 {
     top: 50px;
     position: relative;
     
+}
+
+.sec-js {
+    text-align: center;
+    width: 250px;
+    height: 28vh;
+    background-color: #fcecc4;
+    border-radius: 5px;
+    left: 335px;
+    top: 75px;
+    position: relative; 
+    
+}
+
+.sec-py {
+    text-align: center;
+    width: 250px;
+    height: 36vh;
+    background-color: #fcecc4;
+    border-radius: 5px;
+    left: 900px;
+    top: 10px;
+    margin-top: -138px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.sec-js:hover{
+    opacity: 0.85;
+}
+
+.sec-py:hover{
+    opacity: 0.85;
 }
