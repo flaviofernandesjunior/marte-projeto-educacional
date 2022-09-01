@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans%3Awght%40700&family=Poppins%3Awght%40600&display=swap%27%29%3B');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    font-family: Poppins; 
     
 }
 
@@ -10,13 +12,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    color: #0D0D0D;
-    font-family: Tahoma;
+    color:black;
+    font-family: Poppins;
     font-size: 16px;
     }
 
 a {
-    color: #fff;
     text-decoration: none;
     transition: 0.3s;
 
@@ -26,7 +27,7 @@ a {
     position: relative;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: white;
+    background-color:white;
     width: 620px;
     left: 350px;
     margin: 70px;
@@ -34,7 +35,7 @@ a {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: black;
+    color:black;
 }
 
 footer h3 {
@@ -48,6 +49,7 @@ footer h3 {
     left: 35px;
     top: 300px;
     letter-spacing: 2px;
+    color:black;
 
 }
 
@@ -56,6 +58,7 @@ footer h3 {
     left: 60px;
     top: 410px;
     letter-spacing: 2px;
+    color:black;
     
 }
 
@@ -81,29 +84,30 @@ footer h3 {
     
 }
 
-.sec-js {
-    text-align: center;
-    width: 250px;
-    height: 32vh;
-    background-color: hsl(43, 97%, 64%);
+section ul {
     color: black;
-    border-radius: 5px;
+    background-color: hsl(43, 97%, 64%);
+    font-size: 13px;
+    text-align: justify;
+    
+}
+.sec-js {
+    position: relative;
+    width: 300px;
+    height: 32vh;
     left: 380px;
     top: -180px;
-    position: relative; 
     
 }
 
 .sec-py {
-    text-align: center;
-    width: 250px;
-    height: 40vh;
-    background-color: hsl(43, 97%, 64%);
-    color: black;
-    border-radius: 5px;
-    left: 1050px;
+    position: relative;
+    width: 450px;
+    height: 35vh;
+    left: 1030px;
     top: -250px;
     margin-top: -138px;
     margin-left: 20px;
-    position: relative;
+    margin-right: 40px;
+
 }

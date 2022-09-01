@@ -19,10 +19,10 @@ body{
 }
 
 footer{
-    position: static;
+    position:static;
     bottom: 0px;
     width: 100%;
-    background-color: #8c6354 ;
+    background: linear-gradient( 90deg, #BF6C5A, #8c6354);
 }
 
 .main-content{
@@ -50,7 +50,7 @@ footer{
 .left .content .social a .fa{
     width: 40px;
     height: 40px;
-    background: #8c6354 ;
+    background: linear-gradient( 90deg, #BF6C5A, #8c6354);
     text-align: center;
     line-height: 40px;
     border-radius: 5px;
@@ -65,7 +65,7 @@ footer{
 }
 .center .content .fa{
     font-size: 23px;
-    background: #8c6354;
+    background: linear-gradient( 90deg, #BF6C5A, #8c6354);
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -90,7 +90,7 @@ footer{
 }
 .rigth form input, .rigth form textarea{
     width: 100%;
-    background: #8c6354;
+    background: linear-gradient( 90deg, #BF6C5A, #8c6354);
     padding-left: 10px;
     border: 1px solid ;
 }
@@ -111,7 +111,7 @@ footer{
 .rigth form .btn button{
     height: 40px;
     width: 100%;
-    background: #8c6354;
+    background: linear-gradient( 90deg, #BF6C5A, #8c6354);
     font-size: 17px;
     font-weight: 500;
     cursor: pointer;
