@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans%3Awght%40700&family=Poppins%3Awght%40600&display=swap%27%29%3B');
 
-body{
-    background-image:url(../istockphoto-1097906842-170667a.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: 100% 100%;
-    margin: 0;
-    padding: 0;
-    font-family: poppins;
 
-}
 
 *{
     margin: 0;
@@ -38,16 +29,16 @@ footer{
     font-weight: 600;
     text-transform: uppercase;
 }
-.left .content{
+.left-box .content{
     margin: 20px 0 0 0;
 }
-.left .content .social{
-    margin: 20px 0 0 0;
+.left-box .content .social{
+    margin: 40px 0 0 0;
 }
-.left .content .social a{
+.left-box .content .social a{
     padding: 0 2px;
 }
-.left .content .social a .fa{
+.left-box .content .social a i{
     width: 40px;
     height: 40px;
     background: #8c6354 ;
@@ -57,7 +48,7 @@ footer{
     font-size: 18px;
     transition: 0.3s;
 }
-.left .content .social a i:hover{
+.left .content .social a i .fa:hover{
     background: white;
 }
 .left .content{
@@ -114,8 +105,13 @@ footer{
     background: #8c6354;
     font-size: 17px;
     font-weight: 500;
-    cursor: pointer;
+    
 
+}
+
+.main-content .left .content .social{
+    width: 30px;
+    max-height: 30px;
 }
 
 
