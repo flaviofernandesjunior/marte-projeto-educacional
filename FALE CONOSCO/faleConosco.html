@@ -6,43 +6,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="faleConosco.css">
-    <title>Contato</title>
+    <link rel="stylesheet" href="../menu/menu.css">
+    <script src="../menu/menu.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Marte</title>
 </head>
 
 <body>
-    <div>
-        <h1>Fale Conosco</h1>
-        <form action="#">
-            <fieldset>
-                <br>
-                <div>
-                    <label for="nome">Nome Completo</label>
-                    <input type="text" name="nome completo" id="nome">
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>Sobre nós</h2>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias tenetur nulla natus nostrum tempora, rerum doloribus excepturi cum atque eum, provident qui. Error unde vitae veniam e</p>
                 </div>
-                <br>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
                 </div>
-                <br>
-                <div>
-                    <label for="genero">Gênero</label>
-                    <select name="genero" id="genero">
-                        <option selected disabled value="">Selecione</option>
-                        <option value="masculino">Masculino</option>
-                        <option value="feminino">Feminino</option>
-                    </select>
+            </div>
+            <div class="center box">
+                <h2>Endereço</h2>
+                <div class="content">
+                    <div class="place">
+                        <i class="fa fa-map-marker"></i>
+                        <span class="text">Av. via láctea, 1234 </span>
+                    </div>
+
+                    <div class="phone">
+                        <i class="fa fa-phone"></i>
+                        <span class="text">+55 XX XXXXX-XXXX</span>
+                    </div>
+
+                        <div class="email">
+                            <i class="fa fa-envelope"></i>
+                            <span class="text">marte@marte.com.br</span>
+                        </div>
                 </div>
-                <br>
-                <div>
-                    <label for="#">Mensagem</label>
-                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </div>
+            <div class="rigth box">
+                <h2>Contato</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">E-mail *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Mensagem</div>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
                 </div>
-    </div>
-    </fieldset>
-    </form>
-    </div>
-    <script src="faleConosco.js"></script>
+            </div>            
+        </div>
+    </footer>
 </body>
 
 </html>
