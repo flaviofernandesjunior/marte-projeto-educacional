@@ -97,6 +97,8 @@ section ul {
     height: 32vh;
     left: 380px;
     top: -180px;
+    border-radius: 5px;
+    color:black;
     
 }
 
@@ -109,5 +111,7 @@ section ul {
     margin-top: -138px;
     margin-left: 20px;
     margin-right: 40px;
+    border-radius: 5px;
+    color:black;
 
 }
