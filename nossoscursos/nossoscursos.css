@@ -84,7 +84,7 @@ footer h3 {
 .sec-js {
     text-align: center;
     width: 250px;
-    height: 22vh;
+    height: 28vh;
     background-color: #fcecc4;
     border-radius: 5px;
     left: 335px;
@@ -96,12 +96,12 @@ footer h3 {
 .sec-py {
     text-align: center;
     width: 250px;
-    height: 29vh;
+    height: 36vh;
     background-color: #fcecc4;
     border-radius: 5px;
     left: 900px;
     top: 10px;
-    margin-top: -130px;
+    margin-top: -138px;
     margin-left: 20px;
     position: relative;
 }
